@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: url(snowman-321034_1280.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+    height: auto;
+    width: auto;
+}
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: left;
+    color: white;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80px;
+
+}
+.home ,.aboutus, .shop, .blog ,.snowman ,.contactus, a{
+    padding-top: 25px;
+    color: white ;
+    flex-wrap: wrap;
+}
+.home ,.aboutus, .shop, .blog ,.snowman ,.contactus ,a:hover{
+
+    color: red;}
+    .left{
+        display: flex;
+        width: 200px;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        
+    
+    }
+    .search,.user,.gift{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+    
+    
+    }
+.heading{
+
+    font-size: 25px;
+    word-spacing: 3px;
+    padding-left: 50px;
+    
+} 
+.btn{
+    background-color: #f7a622; 
+    width: 80px;
+     height: 25px;
+     border: none;
+     font-weight: bolder;
+     border-radius: 5px;
+
+}
+.shop{
+    width: auto;
+    
+
+}
